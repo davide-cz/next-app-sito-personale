@@ -9,7 +9,7 @@ export default function Home() {
     <>      
       <div className="font-sans flex flex-col justify-center">
         <Hero/>
-        <h2 className="text-4xl" >Di seguito le tecnologie che verranno utilizzate per la realizzazione del tuo prossimo sito</h2>
+        <h2 className="text-4xl text-center p-4" >Di seguito le tecnologie che utilizzo per la realizzazione dei miei progetti</h2>
         <CardContainer/>
         <section>
           <h4 className="p-4 bg-stone-900 *: ">Ciò che DC-WebSolution ti può offrire:</h4>
@@ -17,7 +17,7 @@ export default function Home() {
         <ImgAndDescr
           isEven={false}
           imgUrl="/pc-assets.jpeg"
-          description1="Sviluppo front-end e back-end del tuo sito web"
+          description1="Sviluppo front-end e back-end"
           description2="Gestione appuntamenti direttamente dal sito"
           description3="Ottimizzazione per la navigazione da mobile, tablet e desktop"
           description4=""
@@ -25,7 +25,7 @@ export default function Home() {
         <ImgAndDescr
           isEven={true}
           imgUrl="/pc-asset-2.jpeg"
-          description1="Prova la nostra soluzione su misura per il tuo business"
+          description1=""
           description2="layout semplice ed user-friendly"
           description3="Soluzioni per migliorare la posizione nei risultati di ricerca on-line (SEO)"
           description4=""

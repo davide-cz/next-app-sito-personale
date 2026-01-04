@@ -25,13 +25,13 @@ export default function CardContainer (){
                     heigth=""
                 />
                 <Card
-                    imgUrl="/" 
-                    descr=""
+                    imgUrl="/tailwind.svg" 
+                    descr="Tailwind è un framework che gestisce lo stile di rendering, per ottenere dei layout moderni e puliti"
                     heigth=""
                 />
                 <Card
-                    imgUrl="/"
-                    descr=""
+                    imgUrl="/capacitor.svg"
+                    descr="Capacitor è un framework costruito per produrre delle applicazioni installabili su smartphone e tablet"
                     heigth=""
                 />
             </div>
