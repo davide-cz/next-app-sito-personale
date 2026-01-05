@@ -3,7 +3,7 @@ import Card from "./Card";
 export default function CardContainer (){
     return (
         
-            <div className="p-2  max-h-full bg-stone-300 grid lg:grid-cols-3 md:grid-cols-2 gap-4  items-center" >
+            <div className="py-8  max-h-full bg-stone-300 grid lg:grid-cols-3 md:grid-cols-2 gap-8  items-center" >
                 <Card
                     imgUrl="/mongodb.svg"
                     descr="per la creazione di database non relazionali e quindi più flessibili"
