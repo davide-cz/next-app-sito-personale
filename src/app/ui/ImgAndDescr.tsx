@@ -24,15 +24,8 @@ export default function ImgAndDescr ( {isEven , imgUrl , description1 ,descripti
 /*const [isEven, setIsEven]=useState(false);*/
 
     return (
-<<<<<<< HEAD
         <div  className={`flex flex-col px-2 pt-4 gap-4 h-full sm:max-h-[700px] w-full saturate-50 bg-linear-to-b   from-stone-900 via-blue-600 to-stone-900 ${isEven ? 'lg:flex-row justify-aroud md:justify-between' : 'lg:flex-row-reverse md:justify-between' }  `} >
-=======
-<<<<<<< HEAD
-        <div  className={`flex flex-col px-2 pt-4 gap-4 h-full sm:max-h-[700px] w-full saturate-50 bg-linear-to-b   from-stone-900 via-blue-600 to-stone-900 ${isEven ? 'lg:flex-row justify-aroud md:justify-between' : 'lg:flex-row-reverse md:justify-between' }  `} >
-=======
-        <div className={`flex flex-col px-2 py-16 gap-10 h-full sm:max-h-[700px] w-full saturate-50 bg-linear-to-b border-b border-zinc-800 from-zinc-700 via-zinc-500 to-zinc-700 ${isEven ? 'lg:flex-row justify-aroud md:justify-between' : 'lg:flex-row-reverse md:justify-between' }  `} >
->>>>>>> c3ecdc6aa723d1b610c348a8d084f6bba9413619
->>>>>>> 70ae458f9edff3de15452b6d72b37083785a08de
+
             <div className="lg:md-1/2  w-full bg-transparent rounded-lg sm:h-[600px] min-h-[250px]">
                 <figure className="flex  h-full m-auto">
                     <img className={` ${centered ? 'object-center' : 'object-right'} rounded-xl w-auto h-[500px] ${isEven ? 'md:object-center' : 'md:object-scale-down' }`} src={`${imgUrl}`} alt="" />    
