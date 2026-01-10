@@ -7,28 +7,30 @@ import ImgAndDescr from "./ui/ImgAndDescr";
 export default function Home() {
   return (
     <>      
-      <div className="font-sans flex flex-col justify-center">
+      <div id='home' className="font-sans flex flex-col justify-center">
         <Hero/>
-        <h2 className="text-4xl" >Di seguito le tecnologie che verranno utilizzate per la realizzazione del tuo prossimo sito</h2>
+        <h2 className="text-4xl p-8 text-center" >Di seguito le tecnologie che utilizzo per la realizzazione dei miei progetti:</h2>
         <CardContainer/>
         <section>
-          <h4 className="p-4 bg-stone-900 *: ">Ciò che DC-WebSolution ti può offrire:</h4>
+          <h4 id="about" className="p-4 bg-stone-900 *: ">Ciò che ho acquisito con l'esperienza:</h4>
         </section>
         <ImgAndDescr
           isEven={false}
           imgUrl="/pc-assets.jpeg"
-          description1="Sviluppo front-end e back-end del tuo sito web"
+          description1="Sviluppo front-end e back-end"
           description2="Gestione appuntamenti direttamente dal sito"
           description3="Ottimizzazione per la navigazione da mobile, tablet e desktop"
           description4=""
+          centered={false}
         />
         <ImgAndDescr
           isEven={true}
           imgUrl="/pc-asset-2.jpeg"
-          description1="Prova la nostra soluzione su misura per il tuo business"
+          description1=""
           description2="layout semplice ed user-friendly"
           description3="Soluzioni per migliorare la posizione nei risultati di ricerca on-line (SEO)"
           description4=""
+          centered={true}
           
         />
         <ImgAndDescr
@@ -38,6 +40,7 @@ export default function Home() {
           description2="Manutenzione del sito con la possibilità di implementare nuove funzionalità qual'ora ci sia il bisogno "
           description3=""
           description4=""
+          centered={true}
         />
       </div>  
     </>
