@@ -13,6 +13,10 @@ export default function Footer () {
     };
 
     return (
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 70ae458f9edff3de15452b6d72b37083785a08de
       <footer id="footer" className="bg-gray-900 text-white border-t-2 border-gray-600">
         {/* Main Footer */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -98,7 +102,23 @@ export default function Footer () {
                   </button>
                 </li>
               </ul>
+<<<<<<< HEAD
             </div>
+=======
+=======
+        <footer className=" min-h-40 p-10 flex gap-8 justify-center bg-gray-800 text-blue-100">
+            <div className="hidden md:block ">
+                logo
+                <p></p>
+            </div>
+            <div className="flex flex-col my-auto gap-2 text-center" >
+
+                <h3 className="text-xl text-gray-400">per informazioni, progetti o anche solo per fare due chiacchere</h3>
+                <h3 className="text-xl text-gray-400">Contattami qui:  </h3>
+                <a  href="mailto:carletti.dav@gmail.com"><p className="text-indigo-300 hover:text-purple-400 hover:underline text-xl" >carletti.dav@gmail.com</p></a>
+>>>>>>> c3ecdc6aa723d1b610c348a8d084f6bba9413619
+            </div>
+>>>>>>> 70ae458f9edff3de15452b6d72b37083785a08de
 
             {/* Contact Info */}
             <div>
