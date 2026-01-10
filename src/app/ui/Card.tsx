@@ -6,7 +6,7 @@ type myProps={
 }
 export default function Card ({imgUrl , descr , heigth }:myProps ) {
     return (
-        <div className=" h-[450px] rounded-md w-[300px] mx-auto shadow-md hover:shadow-xl hover:scale-105
+        <div className=" h-[450px] rounded-md w-[300px] lg:w-[350px] mx-auto shadow-md hover:shadow-xl hover:scale-105
                         border-1 border-gray-300 p-2 bg-gray-200 transition-all duration-150 justify-around">
 
 

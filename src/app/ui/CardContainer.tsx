@@ -2,7 +2,7 @@ import Card from "./Card";
 
 export default function CardContainer (){
     return (
-            <div className="p-8   max-h-full gap-y-10 bg-stone-300 flex flex-wrap gap-4  items-center" >
+            <div className="p-8   max-h-full gap-y-10 bg-stone-300 flex flex-wrap gap-4 lg:gap-10 items-center" >
                 <Card
                     imgUrl="/mongodb.svg"
                     descr="per la creazione di database non relazionali e quindi più flessibili"
