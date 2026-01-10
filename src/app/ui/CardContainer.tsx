@@ -3,7 +3,11 @@ import Card from "./Card";
 export default function CardContainer (){
     return (
         
+<<<<<<< HEAD
             <div className="p-8   max-h-full gap-y-10 bg-stone-300 flex flex-wrap gap-4  items-center" >
+=======
+            <div className="py-8  max-h-full bg-stone-300 grid lg:grid-cols-3 md:grid-cols-2 gap-8  items-center" >
+>>>>>>> c3ecdc6aa723d1b610c348a8d084f6bba9413619
                 <Card
                     imgUrl="/mongodb.svg"
                     descr="per la creazione di database non relazionali e quindi più flessibili"
@@ -25,6 +29,7 @@ export default function CardContainer (){
                     heigth=""
                 />
                 <Card
+<<<<<<< HEAD
                     imgUrl="/tailwindcss.svg" 
                     descr="TailwindCSS è un Framework basato su CSS utilizzato per costruire lo stile di un sito web dandogli un look moderno"
                     heigth=""
@@ -32,6 +37,15 @@ export default function CardContainer (){
                 <Card
                     imgUrl="/capacitor.svg" 
                     descr="Capacitor è una libreria basata su JS, con cui è possibile creare delle App installabili su smartphone e tablet "
+=======
+                    imgUrl="/tailwind.svg" 
+                    descr="Tailwind è un framework che gestisce lo stile di rendering, per ottenere dei layout moderni e puliti"
+                    heigth=""
+                />
+                <Card
+                    imgUrl="/capacitor.svg"
+                    descr="Capacitor è un framework costruito per produrre delle applicazioni installabili su smartphone e tablet"
+>>>>>>> c3ecdc6aa723d1b610c348a8d084f6bba9413619
                     heigth=""
                 />
             </div>

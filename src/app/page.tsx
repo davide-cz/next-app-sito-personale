@@ -9,7 +9,11 @@ export default function Home() {
     <>      
       <div id='home' className="font-sans flex flex-col justify-center">
         <Hero/>
+<<<<<<< HEAD
         <h2 className="text-4xl p-8 text-center" >Di seguito le tecnologie che utilizzo per la realizzazione dei miei progetti:</h2>
+=======
+        <h2 className="text-4xl text-center p-4" >Di seguito le tecnologie che utilizzo per la realizzazione dei miei progetti</h2>
+>>>>>>> c3ecdc6aa723d1b610c348a8d084f6bba9413619
         <CardContainer/>
         <section>
           <h4 id="about" className="p-4 bg-stone-900 *: ">Ciò che ho acquisito con l'esperienza:</h4>
