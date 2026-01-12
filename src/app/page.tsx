@@ -16,12 +16,12 @@ export default function Home() {
         </section>
         <ImgAndDescr
           isEven={false}
-          imgUrl="/pc-assets.jpeg"
+          imgUrl="/pc-asset-4.png"
           description1="Sviluppo front-end e back-end"
           description2="Gestione appuntamenti direttamente dal sito"
           description3="Ottimizzazione per la navigazione da mobile, tablet e desktop"
           description4=""
-          centered={false}
+          centered={true}
         />
         <ImgAndDescr
           isEven={true}

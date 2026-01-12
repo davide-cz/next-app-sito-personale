@@ -14,8 +14,12 @@ export default function Navbar () {
 
     return (
         <nav className="h-24 flex bg-transparent text-amber-100 text-lg justify-between " >
-            <div className="my-auto ">
-                logo
+            <div className="flex ">
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center my-auto ml-4 text-white font-bold text-xl">
+                    DC
+                </div>
+                
+                <span className="ml-3 my-auto text-xl font-bold">DC web developer</span>
             </div>
             <ul className="flex gap-4 p-2 lg:h-full ">
                 <li className="my-auto "> 

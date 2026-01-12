@@ -38,7 +38,9 @@ h4{
 }
 
 .btn{
-  @apply border-2 border-gray-400 bg-gray-700 hover:bg-gray-400 hover:border-gray-700 text-gray-400 hover:text-gray-700 p-2 rounded-md transition duration-200
+  @apply border-2 border-blue-500 bg-linear-to-b from-blue-700 via-purple-500 to-blue-800
+  hover:bg-linear-to-b hover:from-purple-600 hover:via-blue-500 hover:to-purple-800 
+  hover:bg-blue-400 hover:border-blue-700 text-gray-200 hover:text-gray-700 p-2 rounded-md transition duration-200
 }
 
 .arrow-icon1{
