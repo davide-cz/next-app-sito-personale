@@ -21,13 +21,13 @@ export default function Home() {
           description2="Gestione appuntamenti direttamente dal sito"
           description3="Ottimizzazione per la navigazione da mobile, tablet e desktop"
           description4=""
-          centered={true}
+          centered={false}
         />
         <ImgAndDescr
           isEven={true}
           imgUrl="/pc-asset-2.jpeg"
           description1=""
-          description2="layout semplice ed user-friendly"
+          description2="Layout semplice ed user-friendly"
           description3="Soluzioni per migliorare la posizione nei risultati di ricerca on-line (SEO)"
           description4=""
           centered={true}
@@ -37,8 +37,8 @@ export default function Home() {
           isEven={false}
           imgUrl="/pc-asset-3.jpeg"
           description1="Constante confronto sui risultati che si vogliono raggiungere"
-          description2="Manutenzione del sito con la possibilità di implementare nuove funzionalità qual'ora ci sia il bisogno "
-          description3=""
+          description2="Manutenzione ordinaria del sito "
+          description3="Implementare nuove funzionalità qual'ora ci sia il bisogno" 
           description4=""
           centered={true}
         />

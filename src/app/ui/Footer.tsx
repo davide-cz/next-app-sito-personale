@@ -15,10 +15,10 @@ export default function Footer () {
     return (
       <footer id="footer" className="bg-gray-900 text-white border-t-2 border-gray-600">
         {/* Main Footer */}
-        <div className=" mx-auto flex px-4 sm:px-6 lg:px-8 py-16">
-          <div className="flex gap-8 w-fullgap-x-10">
+        <div className=" mx-auto flex px-4 sm:px-6 lg:px-8 py-16 " >
+          <div className="flex flex-col gap-8 w-fullgap-x-10 sm:flex-row">
             {/* Company Info */}
-            <div className="space-y-4 w-1/3">
+            <div className="space-y-4 w-auto sm:w-1/3">
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center text-white font-bold text-xl">
                   DC
