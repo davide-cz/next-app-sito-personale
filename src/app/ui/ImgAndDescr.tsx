@@ -24,7 +24,7 @@ export default function ImgAndDescr ( {isEven , imgUrl , description1 ,descripti
 /*const [isEven, setIsEven]=useState(false);*/
 
     return (
-        <div  className={`flex flex-col px-2 pt-4 gap-4 h-full sm:max-h-[700px] w-full saturate-50 bg-linear-to-b   from-stone-900 via-purple-500 to-stone-900 ${isEven ? 'lg:flex-row justify-aroud md:justify-between' : 'lg:flex-row-reverse md:justify-between' }  `} >
+        <div  className={`flex flex-col px-8 pt-4 gap-4 h-full sm:max-h-[700px] w-full saturate-50 bg-linear-to-b   from-stone-900 via-purple-500 to-stone-900 ${isEven ? 'lg:flex-row justify-aroud md:justify-between' : 'lg:flex-row-reverse md:justify-between' }  `} >
 
             <div className=" w-full bg-transparent rounded-lg sm:h-[600px] min-h-[250px]">
                 <figure className="flex  h-full m-auto">

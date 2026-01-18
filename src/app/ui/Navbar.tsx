@@ -33,7 +33,7 @@ export default function Navbar () {
                 <li className="my-auto ">                   
                         <button className="btn"
                                 onClick={() => scrollToSection('about')}>
-                                Cosa offriamo
+                                about
                         </button>
                 </li>
                 <li className="my-auto ">                       
