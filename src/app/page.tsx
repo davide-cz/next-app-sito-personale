@@ -12,7 +12,7 @@ export default function Home() {
         <h2 className="text-4xl p-8 text-center" >Di seguito le tecnologie che utilizzo per la realizzazione dei miei progetti:</h2>
         <CardContainer/>
         <section>
-          <h4 id="about" className="p-4 bg-stone-900 *: ">Ciò che ho acquisito con l'esperienza:</h4>
+          <h4 id="about" className="p-4 bg-stone-900 *: ">{"Ciò che ho acquisito con l'esperienza:"}</h4>
         </section>
         <ImgAndDescr
           isEven={false}
