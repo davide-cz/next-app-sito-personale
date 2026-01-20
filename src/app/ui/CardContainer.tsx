@@ -21,7 +21,7 @@ export default function CardContainer (){
                 <Card
                     imgUrl="/react.svg"
                     descr="React JS è una libreria di javascript, conosciuta per la velocità e la versatilità nelle applicazioni web "
-                    heigth=""
+                    heigth="max-w-2/3 "
                 />
                 <Card
                     imgUrl="/tailwindcss.svg" 

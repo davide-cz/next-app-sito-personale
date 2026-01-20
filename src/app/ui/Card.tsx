@@ -11,8 +11,8 @@ export default function Card ({imgUrl , descr , heigth }:myProps ) {
 
 
             <div className="h-1/2 flex border border-gray-300" >
-                <figure className=" border m-auto h-full flex">
-                    <img className={`p-2 ${heigth} m-auto`} src={imgUrl} alt="" />
+                <figure className=" border m-auto h-full w-full flex">
+                    <img className={`p-2 ${heigth}  m-auto`} src={imgUrl} alt="" />
                 </figure>
             </div>
             <div className="max-w-full max-h-1/2">
