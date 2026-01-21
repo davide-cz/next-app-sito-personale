@@ -34,7 +34,7 @@ body {
 }
 
 h4{
-   @apply font-medium text-3xl text-center
+   @apply font-medium text-center
 }
 
 .btn{

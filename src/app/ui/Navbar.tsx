@@ -19,7 +19,7 @@ export default function Navbar () {
                     DC
                 </div>
                 
-                <span className="ml-3 my-auto text-xl font-bold">DC web developer</span>
+                <span className="ml-3 my-auto hidden sm:block text-xl font-bold">DC web developer</span>
             </div>
             <ul className="flex gap-4 p-2 lg:h-full ">
                 <li className="my-auto "> 
